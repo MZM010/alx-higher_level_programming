@@ -9,7 +9,7 @@ int check_cycle(listint_t *list)
 	listint_t *bati2 = list;
 	listint_t *sari3 = list;
 
-	if (!list)
+	if (!list || !list->next)
 	{
 		return (0);
 	}
