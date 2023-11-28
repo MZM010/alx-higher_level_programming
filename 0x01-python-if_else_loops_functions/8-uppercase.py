@@ -6,3 +6,6 @@ def uppercase(str):
             the_new_str += chr(ord(str[i]) - 32)
         else :
             the_new_str += str[i]
+    print("{}".format(the_new_str))
+    print("\n")
+uppercase("lllOaAAb")
