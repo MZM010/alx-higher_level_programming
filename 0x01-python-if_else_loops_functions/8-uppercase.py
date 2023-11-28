@@ -7,4 +7,3 @@ def uppercase(str):
         else :
             the_new_str += str[i]
     print("{}".format(the_new_str))
-uppercase("lllOaAAb")
