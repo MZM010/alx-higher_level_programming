@@ -5,11 +5,6 @@ def max_integer(my_list=[]):
     Max = 0
     if isinstance(my_list, list):
         for item in my_list:
-            if isinstance(item, int):
-                if item > Max:
-                    Max = item
-            else:
-                return None
-    else:
-        return None
+            if item > Max:
+                Max = item
     return Max
