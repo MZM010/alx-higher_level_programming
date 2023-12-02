@@ -8,7 +8,7 @@ def max_integer(my_list=[]):
     else:
         for item in my_list:
             if not isinstance(item, int):
-                return None
+                continue
             elif item > Max:
                 Max = item
     return Max
