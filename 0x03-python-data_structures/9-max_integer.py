@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    if not my_list:
+    if not len(my_list): 
         return None
-    Max = 0
-    if not isinstance(my_list, list):
-        return None
-    else:
-        for item in my_list:
-            if not isinstance(item, int):
-                continue
-            elif item > Max:
-                Max = item
+    Max = my_list[0]
+
+    for item in my_list:
+        #if not isinstance(item, int):
+        #    continue
+        if item > Max:
+            Max = item
     return Max
