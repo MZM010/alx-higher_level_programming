@@ -5,7 +5,6 @@ def max_integer(my_list=[]):
     Max = 0
     if not isinstance(my_list, list):
         return None
-        
     else:
         for item in my_list:
             if item > Max:
