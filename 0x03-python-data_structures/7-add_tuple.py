@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def add_tuple(tuple_a=(), tuple_b=()):
     # If tuple_a is smaller than 2 elements, add 0 for missing elements
     if len(tuple_a) < 2:
