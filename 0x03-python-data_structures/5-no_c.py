@@ -1,4 +1,4 @@
-#/!usr/bin/python
+#!/usr/bin/python
 def no_c(my_string):
     new_string = ""
     for ch in my_string:
