@@ -4,4 +4,4 @@
 def print_list_integer(list):
     """print all integer in the list"""
     for i in list:
-        print("{}".format(i))
+        print("{:d}".format(i))
