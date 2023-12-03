@@ -11,6 +11,9 @@ int is_palindrome(listint_t **head)
 	listint_t *fast = (*head);
 	listint_t *splited_list = NULL;
 	listint_t *temp, *temp1;
+
+	if (*head == NULL)
+		return (false);
 	/*spilt the list*/
 	while (fast->next != NULL && fast->next->next != NULL)
 	{
