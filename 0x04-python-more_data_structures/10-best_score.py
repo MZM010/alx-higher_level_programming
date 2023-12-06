@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    if isinstance(a_dictionary, str) or a_dictionary is None:
+    if not isinstance(a_dictionary, dict) or a_dictionary is None:
         return None
     Max = 0
     for i in range(len(a_dictionary)):
