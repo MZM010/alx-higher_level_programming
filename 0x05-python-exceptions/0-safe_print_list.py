@@ -9,5 +9,8 @@ def safe_print_list(my_list=[], x=0):
             i += 1
         except IndexError:
             break
-    print("{:d}".format(total))
+    if total == 0:
+        print()
+    else:
+        print("{:d}".format(total))
     return i
