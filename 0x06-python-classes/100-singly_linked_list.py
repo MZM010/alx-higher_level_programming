@@ -1,4 +1,8 @@
+"""Node with size"""
+
+
 class Node:
+    """Node"""
     def __init__(self, data, next_node=None):
         self.__data = data
         self.__next_node = next_node
@@ -24,7 +28,11 @@ class Node:
         self.__next_node = value
 
 
+"""List"""
+
+
 class SinglyLinkedList(Node):
+    """square"""
     def __init__(self):
         self.__head = None
 
