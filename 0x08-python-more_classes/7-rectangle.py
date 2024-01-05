@@ -60,12 +60,12 @@ class Rectangle:
 
         if self.__height == 0 or self.__width == 0:
             return ("")
-        rectangle_shape = []
+        re = []
         for i in range(self.__height):
-            [rectangle_shape.append(str(self.print_symbol)) for j in range(self.__width)]
+            [re.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
-                rectangle_shape.append("\n")
-        return ("".join(rectangle_shape))
+                re.append("\n")
+        return ("".join(re))
 
     def __repr__(self):
         return f"Rectangle({str(self.__width)}, {str(self.__height)})"
